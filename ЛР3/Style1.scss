@@ -205,7 +205,11 @@ p{
     }
     &_number{
         input[type="text"]{ width: 455px;}
-        display:inline-block;  
+        display:inline-block; 
+        img{
+            width: 15px;
+            margin-left: -10px;
+        } 
         
     }
     &_email{
