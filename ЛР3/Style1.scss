@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    
+    // scroll-behavior: smooth;
+}   
+// body::-webkit-scrollbar-thumb {
+//     background-color: #223c50;
+//     width: 0;
+// } 
+main{
+    overflow-y: scroll;
+    scroll-behavior:auto;
+}    
+@font-face {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 400;
+    src: url(fontsstaticOswald-ExtraLight.ttf);
+  }
+.purchases{
+    display: inline-block;
+    background-image: url(side_background2.svg);
+    width: 50%;
+    height:100%;
+    position:absolute;
+    background-size: cover ;
+   
+}
+.payment{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right:0px;
+}
+.logo{
+   img{
+    display: block;
+    margin: 10px auto;
+    width: 70px;
+} 
+}
+h1{
+    text-align: center;
+    color:white;
+}
+.purchases1{
+    background:rgba(255, 255, 255, 0.2);
+    padding:20px;
+    width:500px;
+    height:auto;
+    margin-left:15%;
+}
+.purchase1{
+    img{
+        width: 20px;
+        height: auto;
+    }
+    
+p{ display:inline-block;}  
+// &_1{position: absolute;}
+&_2{position: absolute; right: 5%;}
+&_3{position: absolute; bottom: 0; left:10%;}
+&_4{position: absolute; bottom: 0; left:30%;}
+&_5{position: absolute; bottom: 0; right:5%;}
+position: relative;
+width: 400px;
+height: 60px;
+background:rgba(255, 255, 255, 0.5);
+padding: 10px;
+margin: 10px;
+margin-left: 25px;
+
+}
+.purchase2{
+    img{
+        width: 20px;
+        height: auto;
+    }
+    
+p{ display:inline-block;}  
+// &_1{position: absolute;}
+&_2{position: absolute; right: 5%;}
+&_3{position: absolute; bottom: 0; left:10%;}
+&_4{position: absolute; bottom: 0; left:30%;}
+&_5{position: absolute; bottom: 0; right:5%;}
+position: relative;
+width: 400px;
+height: 60px;
+background:rgba(255, 255, 255, 0.5);
+padding: 10px;
+margin: 10px;
+margin-left: 25px;
+}
+.purchase3{
+    img{
+        width: 20px;
+        height: auto;
+    }
+    
+p{ display:inline-block;}  
+// &_1{position: absolute;}
+&_2{position: absolute; right: 5%;}
+&_3{position: absolute; bottom: 0; left:10%;}
+&_4{position: absolute; bottom: 0; left:30%;}
+&_5{position: absolute; bottom: 0; right:5%;}
+position: relative;
+width: 400px;
+height: 60px;
+background:rgba(255, 255, 255, 0.5);
+padding: 10px;
+margin: 10px;
+margin-left: 25px;
+}
+.Total{
+    p{display: inline-block;}
+   
+    
+    &_1{position: absolute; left: 10%; top: 5%;}
+    &_2{position: absolute; right: 10%; top: 5%;}
+    &_3{position: absolute; left: 10%;; top: 25%;}
+    &_4{position: absolute; right: 10%; top: 25%;}
+    &_5{position: absolute; left: 10%; top: 50%;}
+    &_6{position: absolute; right: 10%; top: 50%;}
+    &_7{position: absolute; left: 10%; bottom: 0; font-size: 16px;}
+    &_8{position: absolute; right: 10%; bottom: 0;font-size: 16px;}
+    position: relative;
+    width: 400px;
+    height: 150px;
+    background:rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    margin: 10px;
+    margin-left: 25px;
+}
+.Return{
+    display: inline-block;
+    a{vertical-align:middle;}
+    img{
+        width: 40px;
+    }
+    p{
+        display: inline-block;
+       margin-left: 10px;
+    }
+}
+// #3{
+//     display: inline-block;
+//     width:300px ;
+//     margin-left: 10px;
+// }
+// #4{
+//     display: inline-block;
+//     width:300px ;  
+// }
+p{
+    font-size: 14px;
+}
+// input[type="text"] {
+
+// }
+
+.payment1{
+    margin-left: 10%;
+    &_button1{
+        display: inline-block;
+        width: 400px;
+        height: 35px;
+        background-color: #03A9F4;
+        
+        a{
+            color: white;
+            text-decoration:none;
+            vertical-align: sub;
+        }
+        text-align: center;
+        margin-left: 14%;
+        margin-top:5%;
+        border-radius: 10px/10px;   
+    }
+    &_button2{
+        display: inline-block;
+        width: 400px;
+        height: 35px;
+        background-color: #03A9F4;
+        
+        a{
+            color: white;
+            text-decoration:none;
+            vertical-align: sub;
+        }
+        text-align: center;
+        margin-left: 14%;
+        margin-top:5%;
+        border-radius: 10px/10px;   
+    }
+   &_date{
+    input[type="text"]{ width: 225px;}
+    display:inline-block;
+   
+    }
+    &_CVC{
+        input[type="text"]{ width: 225px;}
+        display: inline-block;
+        margin-left: -1%;
+    }
+    &_number{
+        input[type="text"]{ width: 455px;}
+        display:inline-block;  
+        
+    }
+    &_email{
+        input[type="text"]{ width: 455px;}
+        display:inline-block;     
+    }
+    &_name{
+        input[type="text"]{ width: 455px;}
+        display:inline-block;       
+    }
+    &_country{
+        select{width: 462px;}
+        display:inline-block;       
+    }
+    &_zip{
+        input[type="text"]{ width: 455px;}
+        display:inline-block;       
+    }
+    &_text{
+        transform: translate(-7%,0);
+        text-align: center;
+    }
+    }
+    

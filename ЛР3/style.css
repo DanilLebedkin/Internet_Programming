@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+@font-face {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  src: url(fontsstaticOswald-ExtraLight.ttf);
+}
+.links {
+  display: inline-block;
+  background-image: url(side_background.png);
+  width: 50%;
+  height: 100%;
+  position: fixed;
+  background-size: cover;
+}
+
+.link1 {
+  display: block;
+}
+.link1 div {
+  display: inline-block;
+  width: 300px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px/15px;
+  margin-left: 140px;
+  margin-top: 200px;
+  border: 2px solid cornflowerblue;
+}
+.link1 a {
+  color: black;
+  text-decoration: none;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.link1 img {
+  width: 25px;
+  margin-left: 50px;
+  vertical-align: middle;
+}
+
+.link2 {
+  display: block;
+}
+.link2 div {
+  display: inline-block;
+  width: 300px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px/15px;
+  margin-left: 140px;
+  margin-top: 25px;
+  border: 2px solid cornflowerblue;
+}
+.link2 a {
+  color: black;
+  text-decoration: none;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.link2 img {
+  width: 25px;
+  margin-left: 50px;
+  vertical-align: middle;
+}
+
+.link3 {
+  display: block;
+}
+.link3 div {
+  display: inline-block;
+  width: 300px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px/15px;
+  margin-left: 140px;
+  margin-top: 25px;
+  border: 2px solid cornflowerblue;
+}
+.link3 a {
+  color: black;
+  text-decoration: none;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.link3 img {
+  width: 25px;
+  margin-left: 50px;
+  vertical-align: middle;
+}
+
+.sign_up {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  right: 0px;
+}
+.sign_up input[type=text] {
+  margin-left: 170px;
+  width: 300px;
+}
+.sign_up input[type=password] {
+  margin-left: 170px;
+  width: 300px;
+  margin-bottom: 25px;
+}
+.sign_up h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 48px;
+}
+.sign_up h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 36px;
+}
+.sign_up p {
+  margin-top: 25px;
+  margin-left: 170px;
+}
+.sign_up .text1 {
+  margin-left: -10px;
+}
+.sign_up .checkbox {
+  margin-left: 10%;
+  width: 600px;
+}
+.sign_up .checkbox label {
+  font-size: 14px;
+}
+
+.button {
+  display: inline-block;
+  width: 300px;
+  padding: 10px;
+  background-color: #03A9F4;
+  border-radius: 20px/15px;
+  margin: 20px 100px;
+  margin-left: 170px;
+}
+.button a {
+  color: white;
+  text-decoration: none;
+  vertical-align: middle;
+  margin-left: 130px;
+}/*# sourceMappingURL=style.css.map */

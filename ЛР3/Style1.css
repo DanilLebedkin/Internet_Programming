@@ -1,0 +1,312 @@
+body {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+main {
+  overflow-y: scroll;
+  scroll-behavior: auto;
+}
+
+@font-face {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  src: url(fontsstaticOswald-ExtraLight.ttf);
+}
+.purchases {
+  display: inline-block;
+  background-image: url(side_background2.svg);
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+}
+
+.payment {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  right: 0px;
+}
+
+.logo img {
+  display: block;
+  margin: 10px auto;
+  width: 70px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.purchases1 {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  width: 500px;
+  height: auto;
+  margin-left: 15%;
+}
+
+.purchase1 {
+  position: relative;
+  width: 400px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  margin: 10px;
+  margin-left: 25px;
+}
+.purchase1 img {
+  width: 20px;
+  height: auto;
+}
+.purchase1 p {
+  display: inline-block;
+}
+.purchase1_2 {
+  position: absolute;
+  right: 5%;
+}
+.purchase1_3 {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+}
+.purchase1_4 {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+}
+.purchase1_5 {
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+}
+
+.purchase2 {
+  position: relative;
+  width: 400px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  margin: 10px;
+  margin-left: 25px;
+}
+.purchase2 img {
+  width: 20px;
+  height: auto;
+}
+.purchase2 p {
+  display: inline-block;
+}
+.purchase2_2 {
+  position: absolute;
+  right: 5%;
+}
+.purchase2_3 {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+}
+.purchase2_4 {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+}
+.purchase2_5 {
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+}
+
+.purchase3 {
+  position: relative;
+  width: 400px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  margin: 10px;
+  margin-left: 25px;
+}
+.purchase3 img {
+  width: 20px;
+  height: auto;
+}
+.purchase3 p {
+  display: inline-block;
+}
+.purchase3_2 {
+  position: absolute;
+  right: 5%;
+}
+.purchase3_3 {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+}
+.purchase3_4 {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+}
+.purchase3_5 {
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+}
+
+.Total {
+  position: relative;
+  width: 400px;
+  height: 150px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  margin: 10px;
+  margin-left: 25px;
+}
+.Total p {
+  display: inline-block;
+}
+.Total_1 {
+  position: absolute;
+  left: 10%;
+  top: 5%;
+}
+.Total_2 {
+  position: absolute;
+  right: 10%;
+  top: 5%;
+}
+.Total_3 {
+  position: absolute;
+  left: 10%;
+  top: 25%;
+}
+.Total_4 {
+  position: absolute;
+  right: 10%;
+  top: 25%;
+}
+.Total_5 {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+}
+.Total_6 {
+  position: absolute;
+  right: 10%;
+  top: 50%;
+}
+.Total_7 {
+  position: absolute;
+  left: 10%;
+  bottom: 0;
+  font-size: 16px;
+}
+.Total_8 {
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+  font-size: 16px;
+}
+
+.Return {
+  display: inline-block;
+}
+.Return a {
+  vertical-align: middle;
+}
+.Return img {
+  width: 40px;
+}
+.Return p {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.payment1 {
+  margin-left: 10%;
+}
+.payment1_button1 {
+  display: inline-block;
+  width: 400px;
+  height: 35px;
+  background-color: #03A9F4;
+  text-align: center;
+  margin-left: 14%;
+  margin-top: 5%;
+  border-radius: 10px/10px;
+}
+.payment1_button1 a {
+  color: white;
+  text-decoration: none;
+  vertical-align: sub;
+}
+.payment1_button2 {
+  display: inline-block;
+  width: 400px;
+  height: 35px;
+  background-color: #03A9F4;
+  text-align: center;
+  margin-left: 14%;
+  margin-top: 5%;
+  border-radius: 10px/10px;
+}
+.payment1_button2 a {
+  color: white;
+  text-decoration: none;
+  vertical-align: sub;
+}
+.payment1_date {
+  display: inline-block;
+}
+.payment1_date input[type=text] {
+  width: 225px;
+}
+.payment1_CVC {
+  display: inline-block;
+  margin-left: -1%;
+}
+.payment1_CVC input[type=text] {
+  width: 225px;
+}
+.payment1_number {
+  display: inline-block;
+}
+.payment1_number input[type=text] {
+  width: 455px;
+}
+.payment1_email {
+  display: inline-block;
+}
+.payment1_email input[type=text] {
+  width: 455px;
+}
+.payment1_name {
+  display: inline-block;
+}
+.payment1_name input[type=text] {
+  width: 455px;
+}
+.payment1_country {
+  display: inline-block;
+}
+.payment1_country select {
+  width: 462px;
+}
+.payment1_zip {
+  display: inline-block;
+}
+.payment1_zip input[type=text] {
+  width: 455px;
+}
+.payment1_text {
+  transform: translate(-7%, 0);
+  text-align: center;
+}/*# sourceMappingURL=Style1.css.map */
