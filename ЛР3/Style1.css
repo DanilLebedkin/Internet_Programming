@@ -290,8 +290,8 @@ p {
 .payment1_number img {
   width: 15px;
   margin-top: 5px;
-  margin-left: -100px;
-  margin-right: 100px;
+  margin-left: -90px;
+  margin-right: 90px;
 }
 .payment1_email {
   display: inline-block;
