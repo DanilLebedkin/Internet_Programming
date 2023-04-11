@@ -283,8 +283,9 @@ p {
   width: 455px;
 }
 .payment1_number img {
-  width: 15px;
+  width: 20px;
   margin-left: -10px;
+  margin-right: 10px;
 }
 .payment1_email {
   display: inline-block;
