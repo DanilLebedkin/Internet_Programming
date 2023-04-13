@@ -1,13 +1,7 @@
 body{
     margin: 0;
     font-family: "Oswald", sans-serif;
-    
-    // scroll-behavior: smooth;
 }   
-// body::-webkit-scrollbar-thumb {
-//     background-color: #223c50;
-//     width: 0;
-// } 
 main{
     overflow-y: scroll;
     scroll-behavior:auto;
@@ -58,7 +52,6 @@ h1{
     }
     
 p{ display:inline-block;}  
-// &_1{position: absolute;}
 &_2{position: absolute; right: 5%;}
 &_3{position: absolute; bottom: 0; left:10%;}
 &_4{position: absolute; bottom: 0; left:30%;}
@@ -79,7 +72,6 @@ margin-left: 25px;
     }
     
 p{ display:inline-block;}  
-// &_1{position: absolute;}
 &_2{position: absolute; right: 5%;}
 &_3{position: absolute; bottom: 0; left:10%;}
 &_4{position: absolute; bottom: 0; left:30%;}
@@ -99,7 +91,6 @@ margin-left: 25px;
     }
     
 p{ display:inline-block;}  
-// &_1{position: absolute;}
 &_2{position: absolute; right: 5%;}
 &_3{position: absolute; bottom: 0; left:10%;}
 &_4{position: absolute; bottom: 0; left:30%;}
@@ -143,22 +134,9 @@ margin-left: 25px;
        margin-left: 10px;
     }
 }
-// #3{
-//     display: inline-block;
-//     width:300px ;
-//     margin-left: 10px;
-// }
-// #4{
-//     display: inline-block;
-//     width:300px ;  
-// }
 p{
     font-size: 14px;
 }
-// input[type="text"] {
-
-// }
-
 .payment1{
     margin-left: 10%;
     &_button1{
