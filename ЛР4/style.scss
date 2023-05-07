@@ -1,0 +1,35 @@
+$Red:#FF5C5C;
+$VeryDarkBlue: #242942;
+$DarkGrayishBlue:#5B5F71;
+$GrayishBlue:#A0A1AC;
+$LightGrayishBlue:#EEF3F6;
+
+body{
+    @font-face {
+        font-family: "Barlow";
+        font-style: normal;
+        font-weight: 400;
+        src: url(./Fonts/Barlow/Barlow-Black.ttf);
+    }
+    @font-face {
+        font-family: "Barlow-Condensed";
+        font-style: normal;
+        font-weight: 400;
+        src: url(./Fonts/Barlow_Condensed/BarlowCondensed-ExtraBoldItalic.ttf);
+    }
+    margin: 0;
+    font-family: "Barlow","sans-serif";
+    display: flex;
+}
+div{
+    font-family: "Barlow";
+}
+// .leftpanel{
+
+// }
+.rightpanel{
+    &__device{
+        width:10%;
+    };
+}
+

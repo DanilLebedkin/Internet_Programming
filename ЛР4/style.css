@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: "Barlow", "sans-serif";
+  display: flex;
+}
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  src: url(./Fonts/Barlow/Barlow-Black.ttf);
+}
+@font-face {
+  font-family: "Barlow-Condensed";
+  font-style: normal;
+  font-weight: 400;
+  src: url(./Fonts/Barlow_Condensed/BarlowCondensed-ExtraBoldItalic.ttf);
+}
+
+div {
+  font-family: "Barlow";
+}
+
+.rightpanel__device {
+  width: 10px;
+}/*# sourceMappingURL=style.css.map */
