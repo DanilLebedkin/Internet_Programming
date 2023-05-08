@@ -6,7 +6,6 @@ body {
 main {
   overflow-y: scroll;
   scroll-behavior: auto;
-  /* test */
 }
 
 @font-face {

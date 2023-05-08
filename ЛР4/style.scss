@@ -3,33 +3,205 @@ $VeryDarkBlue: #242942;
 $DarkGrayishBlue:#5B5F71;
 $GrayishBlue:#A0A1AC;
 $LightGrayishBlue:#EEF3F6;
-
+html{
+    font-size: 10px;
+}
 body{
     @font-face {
         font-family: "Barlow";
         font-style: normal;
         font-weight: 400;
-        src: url(./Fonts/Barlow/Barlow-Black.ttf);
+        src: url(./Fonts/Barlow/Barlow-Medium.ttf);
     }
     @font-face {
-        font-family: "Barlow-Condensed";
+        font-family: "Barlow-Condensed1";
         font-style: normal;
         font-weight: 400;
-        src: url(./Fonts/Barlow_Condensed/BarlowCondensed-ExtraBoldItalic.ttf);
+        src: url(./Fonts/Barlow_Condensed/BarlowCondensed-Medium.ttf);
+    }  
+    @font-face {
+        font-family: "Barlow-Condensed2";
+        font-style: normal;
+        font-weight: 400;
+        src: url(./Fonts/Barlow_Condensed/BarlowCondensed-ExtraLight.ttf);
     }
     margin: 0;
-    font-family: "Barlow","sans-serif";
     display: flex;
 }
-div{
-    font-family: "Barlow";
+.leftpanel{
+width: 50%;
+margin-left: 15rem;
+img{
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+    }
+h2{
+    font-family: "Barlow-Condensed2";
+    font-size: 2.4rem;
+    color:$DarkGrayishBlue ;
+    letter-spacing:0.5rem;
+span{
+    padding: 1rem;
+    padding-left: 1.5rem;
+    border-radius: 2.5rem;
+    background-color:$VeryDarkBlue;
+    font-family: "Barlow-Condensed1";
+    color: white;
+    }
 }
-// .leftpanel{
 
-// }
+h1{
+    font-size: 7rem;
+    color:$VeryDarkBlue;
+    font-family: "Barlow-Condensed1" ;
+    margin-top:0;
+    line-height: 8rem;
+}
+p{
+width: 50%;    
+font-size: 1.6rem;
+font-family: "Barlow";
+color:$DarkGrayishBlue ;
+margin-top: -4rem;
+margin-bottom: 3rem;
+}
+.content__link{
+display: flex;
+column-gap: 3rem;
+font-family:"Barlow-Condensed2";
+a{
+    font-size: 1.4rem;
+    display: inline;
+    text-decoration: none;
+    color:$LightGrayishBlue;
+    background-color:$Red;
+    text-align: center;
+    vertical-align:middle;
+    padding: 1rem;
+    padding-top: 1.8rem;
+    height:auto;
+    border-radius: 1rem;   
+    margin-top: 1rem;
+    font-family:"Barlow-Condensed1";
+    letter-spacing:0.3rem;
+}
+h2{
+    font-size: 2.4rem;
+}
+}
+}
 .rightpanel{
-    &__device{
-        width:10%;
-    };
+    font-family: "Barlow-Condensed1";
+    font-size: 2rem;
+    width: 50%;
+    overflow: hidden;
+    img{
+        margin-top: -40%;
+        width: 140%;
+        
+    }
+    ul{
+        display:flex;
+        margin-top: 15%;
+    }
+    li{
+        margin-right: 3rem;
+    }
+    &__lists{
+        display: flex;
+        justify-content: center;
+        width: 50vw;
+        height: 70vh;
+        background-color: $LightGrayishBlue;
+        border-radius: 10rem;
+        margin-top: -10%;
+    }
+    .lists{
+        &__list1{
+            b{display: flex;}
+            li{ list-style-type:none;
+            a{text-decoration: none;
+            color:$VeryDarkBlue ;}
+            }
+         }
+         &__list2{
+            color:$DarkGrayishBlue;
+            a{
+                
+                text-decoration: none;
+                color:$DarkGrayishBlue;
+            }
+         }
+    }
+}
+@media screen and (max-width: 800px) {
+   body{
+    flex-direction: column;
+    height: 100vh;
+   } 
+   .leftpanel{
+    margin-left: 10vw;
+    width: 100vw;
+   h2{
+    font-size: 1.6rem; 
+    }
+   h1{
+    margin-top:6vh;
+    font-size: 3.5rem;
+    line-height: 5rem;
+    width: 70%;
+    margin-left: 5vw;
+   }
+   p{
+    margin-top: 5vh;
+    margin-left:-3vw;
+    width: 100%;
+   }
+   .content__link{
+    margin-top: 7vh;
+    a{
+        height: 4rem;
+        margin-top: 1.5rem;
+    }
+    h2{
+        font-size: 2rem;
+        margin-top: 2vh;
+    }
+   }
+}
+.rightpanel{
+    height: auto;
+    margin-left: 10vw;
+    margin-top: 0;
+    width: 100vw;
+    font-size: 3rem;
+    &__lists{
+        flex-direction: column;
+        margin-top: 10vh;
+        margin-left:-5vw;
+        width: 100%;
+        height: auto;
+        background-color: white;
+    }
+    .lists{
+        &__list1{
+            flex-direction: column;
+            margin-left: 23vw;
+            margin-top: 0;
+            row-gap: 3vh;
+            // font-size: 3rem;
+        }
+        &__list2{
+            margin-top: 3vh;
+            margin-left: 25vw;
+            li{
+                list-style-type: none;
+            }
+        }
+    }
+img{
+    display: none;
 }
 
+}
+}
