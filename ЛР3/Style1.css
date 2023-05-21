@@ -16,7 +16,7 @@ main {
 }
 .purchases {
   display: inline-block;
-  background-image: url(side_background2.svg);
+  background-image: url(./img/side_background2.svg);
   width: 50%;
   height: 100%;
   position: absolute;
@@ -49,7 +49,7 @@ h1 {
   margin-left: 15%;
 }
 
-.purchase1 {
+.purchase {
   position: relative;
   width: 400px;
   height: 60px;
@@ -58,100 +58,66 @@ h1 {
   margin: 10px;
   margin-left: 25px;
 }
-.purchase1 img {
+.purchase img {
   width: 20px;
   height: auto;
 }
-.purchase1 p {
+.purchase p {
   display: inline-block;
 }
-.purchase1_2 {
+.purchase__1-2 {
   position: absolute;
   right: 5%;
 }
-.purchase1_3 {
+.purchase__1-3 {
   position: absolute;
   bottom: 0;
   left: 10%;
 }
-.purchase1_4 {
+.purchase__1-4 {
   position: absolute;
   bottom: 0;
   left: 30%;
 }
-.purchase1_5 {
+.purchase__1-5 {
   position: absolute;
   bottom: 0;
   right: 5%;
 }
-
-.purchase2 {
-  position: relative;
-  width: 400px;
-  height: 60px;
-  background: rgba(255, 255, 255, 0.5);
-  padding: 10px;
-  margin: 10px;
-  margin-left: 25px;
-}
-.purchase2 img {
-  width: 20px;
-  height: auto;
-}
-.purchase2 p {
-  display: inline-block;
-}
-.purchase2_2 {
+.purchase__2-2 {
   position: absolute;
   right: 5%;
 }
-.purchase2_3 {
+.purchase__2-3 {
   position: absolute;
   bottom: 0;
   left: 10%;
 }
-.purchase2_4 {
+.purchase__2-4 {
   position: absolute;
   bottom: 0;
   left: 30%;
 }
-.purchase2_5 {
+.purchase__2-5 {
   position: absolute;
   bottom: 0;
   right: 5%;
 }
-
-.purchase3 {
-  position: relative;
-  width: 400px;
-  height: 60px;
-  background: rgba(255, 255, 255, 0.5);
-  padding: 10px;
-  margin: 10px;
-  margin-left: 25px;
-}
-.purchase3 img {
-  width: 20px;
-  height: auto;
-}
-.purchase3 p {
-  display: inline-block;
-}
-.purchase3_2 {
+.purchase__3-2 {
   position: absolute;
   right: 5%;
 }
-.purchase3_3 {
+.purchase__3-3 {
   position: absolute;
   bottom: 0;
   left: 10%;
 }
-.purchase3_4 {
+.purchase__3-4 {
   position: absolute;
   bottom: 0;
   left: 30%;
 }
-.purchase3_5 {
+.purchase__3-5 {
   position: absolute;
   bottom: 0;
   right: 5%;
@@ -233,7 +199,7 @@ p {
 .payment1 {
   margin-left: 10%;
 }
-.payment1_button1 {
+.payment1__button {
   display: inline-block;
   width: 400px;
   height: 35px;
@@ -241,24 +207,9 @@ p {
   text-align: center;
   margin-left: 14%;
   margin-top: 5%;
-  border-radius: 10px/10px;
+  border-radius: 10px;
 }
-.payment1_button1 a {
-  color: white;
-  text-decoration: none;
-  vertical-align: sub;
-}
-.payment1_button2 {
-  display: inline-block;
-  width: 400px;
-  height: 35px;
-  background-color: #03A9F4;
-  text-align: center;
-  margin-left: 14%;
-  margin-top: 5%;
-  border-radius: 10px/10px;
-}
-.payment1_button2 a {
+.payment1__button a {
   color: white;
   text-decoration: none;
   vertical-align: sub;

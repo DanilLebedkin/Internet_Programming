@@ -14,7 +14,7 @@ main{
   }
 .purchases{
     display: inline-block;
-    background-image: url(side_background2.svg);
+    background-image: url(./img/side_background2.svg);
     width: 50%;
     height:100%;
     position:absolute;
@@ -45,68 +45,44 @@ h1{
     height:auto;
     margin-left:15%;
 }
-.purchase1{
+.purchase{
+    position: relative;
+    width: 400px;
+    height: 60px;
+    background:rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    margin: 10px;
+    margin-left: 25px;
     img{
         width: 20px;
         height: auto;
     }
     
-p{ display:inline-block;}  
-&_2{position: absolute; right: 5%;}
-&_3{position: absolute; bottom: 0; left:10%;}
-&_4{position: absolute; bottom: 0; left:30%;}
-&_5{position: absolute; bottom: 0; right:5%;}
-position: relative;
-width: 400px;
-height: 60px;
-background:rgba(255, 255, 255, 0.5);
-padding: 10px;
-margin: 10px;
-margin-left: 25px;
-
-}
-.purchase2{
-    img{
-        width: 20px;
-        height: auto;
-    }
-    
-p{ display:inline-block;}  
-&_2{position: absolute; right: 5%;}
-&_3{position: absolute; bottom: 0; left:10%;}
-&_4{position: absolute; bottom: 0; left:30%;}
-&_5{position: absolute; bottom: 0; right:5%;}
-position: relative;
-width: 400px;
-height: 60px;
-background:rgba(255, 255, 255, 0.5);
-padding: 10px;
-margin: 10px;
-margin-left: 25px;
-}
-.purchase3{
-    img{
-        width: 20px;
-        height: auto;
-    }
-    
-p{ display:inline-block;}  
-&_2{position: absolute; right: 5%;}
-&_3{position: absolute; bottom: 0; left:10%;}
-&_4{position: absolute; bottom: 0; left:30%;}
-&_5{position: absolute; bottom: 0; right:5%;}
-position: relative;
-width: 400px;
-height: 60px;
-background:rgba(255, 255, 255, 0.5);
-padding: 10px;
-margin: 10px;
-margin-left: 25px;
+    p{ 
+        display:inline-block;
+    }  
+&__1-2{position: absolute; right: 5%;}
+&__1-3{position: absolute; bottom: 0; left:10%;}
+&__1-4{position: absolute; bottom: 0; left:30%;}
+&__1-5{position: absolute; bottom: 0; right:5%;}
+&__2-2{position: absolute; right: 5%;}
+&__2-3{position: absolute; bottom: 0; left:10%;}
+&__2-4{position: absolute; bottom: 0; left:30%;}
+&__2-5{position: absolute; bottom: 0; right:5%;}
+&__3-2{position: absolute; right: 5%;}
+&__3-3{position: absolute; bottom: 0; left:10%;}
+&__3-4{position: absolute; bottom: 0; left:30%;}
+&__3-5{position: absolute; bottom: 0; right:5%;}
 }
 .Total{
+    position: relative;
+    width: 400px;
+    height: 150px;
+    background:rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    margin: 10px;
+    margin-left: 25px;
     p{display: inline-block;}
-   
-    
     &_1{position: absolute; left: 10%; top: 5%;}
     &_2{position: absolute; right: 10%; top: 5%;}
     &_3{position: absolute; left: 10%;; top: 25%;}
@@ -115,17 +91,12 @@ margin-left: 25px;
     &_6{position: absolute; right: 10%; top: 50%;}
     &_7{position: absolute; left: 10%; bottom: 0; font-size: 16px;}
     &_8{position: absolute; right: 10%; bottom: 0;font-size: 16px;}
-    position: relative;
-    width: 400px;
-    height: 150px;
-    background:rgba(255, 255, 255, 0.5);
-    padding: 10px;
-    margin: 10px;
-    margin-left: 25px;
 }
 .Return{
     display: inline-block;
-    a{vertical-align:middle;}
+    a{
+        vertical-align:middle;
+    }
     img{
         width: 40px;
     }
@@ -139,42 +110,24 @@ p{
 }
 .payment1{
     margin-left: 10%;
-    &_button1{
+    &__button{
         display: inline-block;
         width: 400px;
         height: 35px;
         background-color: #03A9F4;
-        
+        text-align: center;
+        margin-left: 14%;
+        margin-top:5%;
+        border-radius: 10px;
         a{
             color: white;
             text-decoration:none;
             vertical-align: sub;
-        }
-        text-align: center;
-        margin-left: 14%;
-        margin-top:5%;
-        border-radius: 10px/10px;   
+        }  
     }
-    &_button2{
-        display: inline-block;
-        width: 400px;
-        height: 35px;
-        background-color: #03A9F4;
-        
-        a{
-            color: white;
-            text-decoration:none;
-            vertical-align: sub;
-        }
-        text-align: center;
-        margin-left: 14%;
-        margin-top:5%;
-        border-radius: 10px/10px;   
-    }
-   &_date{
-    input[type="text"]{ width: 225px;}
-    display:inline-block;
-   
+    &_date{
+        input[type="text"]{ width: 225px;}
+        display:inline-block;
     }
     &_CVC{
         input[type="text"]{ width: 225px;}
@@ -194,8 +147,7 @@ p{
             margin-top: 5px;
             margin-left: -90px;
             margin-right: 90px;
-        } 
-        
+        }  
     }
     &_email{
         input[type="text"]{ width: 455px;}
