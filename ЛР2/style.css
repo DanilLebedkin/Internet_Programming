@@ -1,3 +1,27 @@
+body {
+  margin: 0;
+  background-color: #EEF0F1;
+  font-family: "Roboto", sans-serif;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url(FontsRobotoRoboto-Thin.ttf);
+}
+@font-face {
+  font-family: "Roboto-bold";
+  font-style: normal;
+  font-weight: 400;
+  src: url(./Fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: "Roboto-italic";
+  font-style: normal;
+  font-weight: 400;
+  src: url(./Fonts/Roboto/Roboto-Italic.ttf);
+}
 .login {
   background-color: #6474FF;
   padding: 25px;
@@ -14,17 +38,16 @@
   font-size: 20px;
 }
 .button a {
+  color: white;
   text-decoration: none;
+  font-family: "Roboto-bold";
 }
 
 .description {
   display: inline-block;
   text-align: center;
   background-color: white;
-  margin-left: 32%;
-  margin-top: -50px;
-  margin-bottom: 25px;
-  margin-right: 200px;
+  margin: -4% 32% 2%;
   border-radius: 10%;
   padding: 35px;
   width: 400px;
@@ -37,56 +60,18 @@
   border-width: 5px;
 }
 
-body {
-  background-color: #EEF0F1;
-  margin: 0;
-  font-family: "Roboto", sans-serif;
-}
-@font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  src: url(FontsRobotoRoboto-Thin.ttf);
+.lists {
+  display: flex;
+  justify-content: space-around;
 }
 
-.list1 {
-  display: inline-block;
+.list {
   background-color: white;
-  margin-left: 14%;
   width: 200px;
   height: 200px;
   border-radius: 10%;
-  vertical-align: middle;
 }
-.list1 h2 {
-  text-align: center;
-  font-size: 20px;
-}
-
-.list2 {
-  display: inline-block;
-  background-color: white;
-  margin-left: 14%;
-  width: 200px;
-  height: 200px;
-  border-radius: 10%;
-  vertical-align: middle;
-}
-.list2 h2 {
-  text-align: center;
-  font-size: 20px;
-}
-
-.list3 {
-  display: inline-block;
-  background-color: white;
-  margin-left: 14%;
-  width: 200px;
-  height: 200px;
-  border-radius: 10%;
-  vertical-align: middle;
-}
-.list3 h2 {
+.list h2 {
   text-align: center;
   font-size: 20px;
 }
@@ -94,16 +79,22 @@ body {
 .links {
   text-align: center;
   background-color: #6474FF;
-  padding: 25px;
+  padding: 35px;
   color: white;
   margin-top: 150px;
 }
-
-a {
+.links ul {
+  font-family: "Roboto-italic";
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-left: -5%;
+}
+.links a {
   color: white;
   margin: 15px;
 }
 
-div, header, footer, main {
+div {
   font-family: "Roboto";
 }/*# sourceMappingURL=style.css.map */
