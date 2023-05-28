@@ -6,6 +6,7 @@ body {
 main {
   overflow-y: scroll;
   scroll-behavior: auto;
+  display: flex;
 }
 
 @font-face {
@@ -16,6 +17,7 @@ main {
 }
 .purchases {
   display: inline-block;
+  background-image: url(./img/side_background2.svg);
   background-image: url(./img/side_background2.svg);
   width: 50%;
   height: 100%;

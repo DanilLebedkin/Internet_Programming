@@ -519,7 +519,7 @@ body, .elem1__text > p, .description__square > p {
 
 .HU-2-5 {
   display: flex;
-  box-shadow: 0.5rem 0.5rem 1rem 1rem rgba(0, 0, 0, 0.2);
+  box-shadow: 1rem 1rem 1.5rem 1rem rgba(0, 0, 0, 0.15), -1rem -1rem 1.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 .HU-2-5__img {
   display: flex;
@@ -581,4 +581,41 @@ body, .elem1__text > p, .description__square > p {
   position: absolute;
   left: 0;
   bottom: 0;
+}
+
+.HU-3-2 {
+  height: 400px;
+}
+
+.HU-3-3 {
+  font-family: "Doppio One", sans-serif;
+  font-size: 2rem;
+  padding: 5rem 0 10rem 0;
+  background-color: #000;
+  color: white;
+  height: auto;
+}
+.HU-3-3 h2 {
+  font-family: "Quicksand";
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center;
+  border-top: 0.2rem solid #0897AB;
+  width: 90vw;
+  font-weight: 600;
+  font-size: 3.2rem;
+  padding-top: 2.5rem;
+  letter-spacing: 0.065em;
+}
+.HU-3-3__lists {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.HU-3-3__lists ul {
+  list-style: none;
+}
+.HU-3-3__lists li {
+  line-height: 5rem;
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */

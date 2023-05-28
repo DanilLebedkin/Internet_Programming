@@ -5,6 +5,7 @@ body{
 main{
     overflow-y: scroll;
     scroll-behavior:auto;
+    display: flex;
 }    
 @font-face {
     font-family: "Oswald";
