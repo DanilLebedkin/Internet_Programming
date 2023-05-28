@@ -31,6 +31,34 @@ $LightGrayishBlue:#EEF3F6;
 //     font-size: 10px;
 // }
 body{
+@font-face {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    src: url(./Fonts/Barlow/Barlow-Medium.ttf);
+}
+@font-face {
+    font-family: "Barlow-Condensed1";
+    font-style: normal;
+    font-weight: 400;
+    src: url(./Fonts/Barlow_Condensed/BarlowCondensed-Medium.ttf);
+}  
+@font-face {
+    font-family: "Barlow-Condensed2";
+    font-style: normal;
+    font-weight: 400;
+    src: url(./Fonts/Barlow_Condensed/BarlowCondensed-ExtraLight.ttf);
+}
+@font-face {
+    font-family: "Barlow-Condensed-Bold";
+    font-style: normal;
+    font-weight: 400;
+    src: url(./Fonts/Barlow_Condensed/BarlowCondensed-Bold.ttf);
+}
+// html{
+//     font-size: 10px;
+// }
+body{
     margin: 0;
     display: flex;
 }
