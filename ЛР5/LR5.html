@@ -9,24 +9,24 @@
 </head>
 <body>
     <div class="wrapper">
-       <section class="wrapper__leftpanel">
+       <section class="leftpanel">
             <a href="#" ><img src="./img/choice.png" alt=""></a>
             <a href="#"class="leftpanel__none"><img class="leftpanel__chosen" src="./img/selected.png" alt=""></a>
             <a href="#"class="leftpanel__none"><img src="./img/heart.png" alt=""></a>
             <a href="#"class="leftpanel__none1"><img src="./img/gear.png" alt=""></a>
             <a href="#"class="leftpanel__none"><img src="./img/question.png" alt=""></a>
        </section> 
-       <section class="wrapper__main">
+       <section class="main">
             <div class="main__search">
                 <a href="#"><img class="main__loupe" src="./img/loupe.png" alt=""></a>
                 <form action="">
                     <input type="text" placeholder="Busca algo de nuestro menu...">
                 </form>
-        </div>
+            </div>
             <h2 class="main__mediaelem">Pizzas</h2>
             <h2 class="main__deskelem"> Categorias</h2>
             <p class="main__subtitle">Elige nuestras deliciosas pizzas</p>
-            <div class="main__categorias">
+            <div class="categorias">
                 <div>
                     <a href="" class="categorias__chosen">
                     <img class="categorias__deskimg" src="./img/icon1.png" alt="">
@@ -53,35 +53,43 @@
                     </a>
                 </div>
             </div>
-            <!-- <hr> -->
-            <div class="main__pizzas">
+            <div class="pizzas">
                 <div class="pizzas__pizza1">
                     <img src="./img/pizza4.png" alt="">
                     <p>Pizza muzzarella</p>
                     <p class="pizza__price"> $ 1200 <span>.00</span></p>
-                    <a  class="pizza__chosen"href="#">+</a>
+                    <div class="pizza__link">
+                        <a class="pizza__chosen"href="#">+</a>
+                    </div>
                 </div>
                 <div class="pizzas__pizza2">
                     <img src="./img/pizza1.png" alt="">
                     <p>Pizza pepperoni</p>
                     <p class="pizza__price"> $ 1100 <span>.00</span></p>
-                    <a class="pizza__unchosen" href="#">+</a>
+                    <div class="pizza__link">
+                        <a  class="pizza__unchosen"href="#">+</a>
+                    </div>
                 </div>
                 <div class="pizzas__pizza3">
                     <img src="./img/pizza2.png" alt="">
                     <p>Pizza napolitana</p>
-                    <p class="pizza__price">$ 1050<span>.00</span></p>
-                    <a class="pizza__unchosen"href="#">+</a>
+                    <p class="pizza__price1">$ 1050<span>.00</span></p>
+                    <div class="pizza__link">
+                        <a  class="pizza__unchosen"href="#">+</a>
+                    </div>
                 </div>
                 <div class="pizzas__pizza3">
                     <img src="./img/pizza3.png" alt="">
                     <p>Pizza jamon y morron</p>
                     <p class="pizza__price">$ 900<span>.00</span></p>
-                    <a class="pizza__unchosen"href="#">+</a>
+                    <div class="pizza__link">
+                        <a  class="pizza__unchosen"href="#">+</a>
+                    </div>
                 </div>
+               
             </div>
        </section>
-       <section class="wrapper__rightpanel">
+       <section class="rightpanel">
         <h2>Mi orden</h2>
         <div class="rightpanel__checkout">
             <h3> Checkout</h3>
