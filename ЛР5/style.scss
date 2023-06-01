@@ -40,16 +40,17 @@ body{
         margin-top: 70%;
         width: 2.5vw;
         }
-    .leftpanel__chosen{
-        width: 3.5vw;
-        margin-left: 30%;
-    }   
- 
+        
     &__none1{
         text-align: center;
         animation: gear-animation 4s  infinite linear;
         transform-origin: center;
     }
+    .leftpanel__chosen{
+        width: 3.5vw;
+        margin-left: 30%;
+    }   
+ 
 }
     .main{
         grid-area: "main";
@@ -199,7 +200,6 @@ body{
                 span{
                     font-size:1.2rem;
                     line-height: 1.8rem;
-
                 }                         
         }
         .rightpanel{
@@ -226,10 +226,13 @@ body{
                     font-weight:600;
                     line-height: 3rem;
                 }
+                a{  
+                    margin-right: 10%;
+                }
                 img{
                     width: 1rem;
                     height: 1rem;
-                    margin-right: 10%;
+                  
                 }
             }
             &__undercheckout{
@@ -265,7 +268,7 @@ body{
             }
             &__button{
                 text-align: center;
-                margin-top: 90%;
+                margin-top:130%;
                 padding: 1rem;
                 border-radius: 3rem;
                 background-color: #5c5c5c;
@@ -395,9 +398,10 @@ body{
                     display: none;
                 }
             &__checkout{
-                img{
+                a{
                     display: none;
                 }
+               
             }
             &__warning{
                

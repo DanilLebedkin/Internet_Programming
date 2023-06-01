@@ -43,14 +43,14 @@ body {
   margin-top: 70%;
   width: 2.5vw;
 }
-.leftpanel .leftpanel__chosen {
-  width: 3.5vw;
-  margin-left: 30%;
-}
 .leftpanel__none1 {
   text-align: center;
   animation: gear-animation 4s infinite linear;
   transform-origin: center;
+}
+.leftpanel .leftpanel__chosen {
+  width: 3.5vw;
+  margin-left: 30%;
 }
 
 .main {
@@ -226,10 +226,12 @@ body {
   font-weight: 600;
   line-height: 3rem;
 }
+.rightpanel__checkout a {
+  margin-right: 10%;
+}
 .rightpanel__checkout img {
   width: 1rem;
   height: 1rem;
-  margin-right: 10%;
 }
 .rightpanel__undercheckout {
   margin-top: -5%;
@@ -265,7 +267,7 @@ body {
 }
 .rightpanel__button {
   text-align: center;
-  margin-top: 90%;
+  margin-top: 130%;
   padding: 1rem;
   border-radius: 3rem;
   background-color: #5c5c5c;
@@ -379,7 +381,7 @@ body {
   .rightpanel h2 {
     display: none;
   }
-  .rightpanel__checkout img {
+  .rightpanel__checkout a {
     display: none;
   }
   .rightpanel__warning p {
