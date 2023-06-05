@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+
+.header, .sect {
+  background-color: #252B42;
+}
+
+.sect2 img {
+  height: auto !important;
+}
+.sect2 h2 {
+  width: 90% !important;
+}
+
+.sect3 {
+  background-color: #8EC2F2;
+}
+
+.sect5__1, .sect5__2, .sect5__3, .sect5__4 {
+  background-size: cover;
+  height: 700px;
+}
+.sect5__1 {
+  background-image: url(./Img/media\ bg-cover.png);
+}
+.sect5__2 {
+  background-image: url(./Img/media\ bg-cover\ 1.png);
+}
+.sect5__3 {
+  background-image: url(./Img/media\ bg-cover\ 2.png);
+}
+.sect5__4 {
+  background-image: url(./Img/media\ bg-cover\ 3.png);
+}
+
+.mt-8 {
+  margin-top: 100px;
+}
+
+.mb-8 {
+  margin-bottom: 100px;
+}
+
+.ms-200 {
+  margin-left: 200px;
+}
+
+.ms-8 {
+  margin-left: 100px;
+}
+
+.ms--2 {
+  margin-left: -20%;
+}
+
+.mb--15 {
+  margin-bottom: -15%;
+}
+
+.fs-8 {
+  font-size: 40px;
+  line-height: 57px;
+  font-weight: 700;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.w-60 {
+  width: 60% !important;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.btncolor {
+  background-color: #23A6F0 !important;
+}
+
+.text-sky {
+  color: #23A6F0 !important;
+}
+
+.btn1 {
+  padding: 10px 36px !important;
+}
+
+@media screen and (min-width: 992px) {
+  .header {
+    background: none;
+    position: absolute !important;
+    height: 0;
+    z-index: 1;
+  }
+  .header a {
+    font-size: 14px !important;
+  }
+  .header a div {
+    font-size: 14px !important;
+  }
+  .sect2 h2 {
+    width: 50%;
+    font-size: 58px;
+  }
+  .mediawidth-50 {
+    width: 50% !important;
+  }
+  .mediawidth-60 {
+    width: 60% !important;
+  }
+  .mediawidth-75 {
+    width: 75% !important;
+  }
+  .mediawidth-100 {
+    width: 100% !important;
+  }
+  .mediaheight-50 {
+    height: 300px !important;
+  }
+  .sect5__1, .sect5__2, .sect5__3, .sect5__4 {
+    background-size: cover;
+    height: 400px;
+  }
+  .mediafs-14 {
+    font-size: 14px !important;
+  }
+  .mediafs-20 {
+    font-size: 20px !important;
+  }
+  .mb-lg-8 {
+    margin-bottom: 100px;
+  }
+  .mediabgnone {
+    background: none !important;
+  }
+  .text-lg-secondary {
+    color: gray !important;
+  }
+}/*# sourceMappingURL=style.css.map */
